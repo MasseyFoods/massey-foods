@@ -1,0 +1,47 @@
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+    color: black;
+}
+
+.mat-table {
+    width: 100%;
+    overflow-x: auto;
+}
+
+th.mat-sort-header-sorted {
+    color: black;
+}
+
+.mat-input-element {
+    background-color: white;
+}
+
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: black;
+}
+
+input::-moz-placeholder { /* Firefox 19+ */
+    color: black;
+}
+
+input:-ms-input-placeholder { /* IE 10+ */
+    color: black;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+    color: black;
+}
+
+.mat-elevation-z8 {
+    width: 80vw;
+}
+
+th.mat-header-cell {
+    text-align: left;
+}
+
+.mat-cell {
+    width: 30%;
+    text-align: left;
+}
