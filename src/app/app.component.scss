@@ -1,9 +1,9 @@
-.mat-drawer-container {
-    background: url("../assets/images/background.jpg") no-repeat center center fixed;
-    background-size: cover;
+h1 {
+    
 }
 
-.logo {
+a#logo {
+    background-image: url(../assets/logo.png);
     border-radius: 50%;
     width: 90px;
     height: 90px;
@@ -28,6 +28,6 @@
     text-align: center;
 }
 
-.spacer {
-    flex: 1;
+footer {
+    margin-left: 15px;
 }

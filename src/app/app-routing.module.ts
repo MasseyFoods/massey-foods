@@ -1,13 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutComponent } from './components/about/about.component';
 import { CatalogComponent } from './components/catalog/catalog.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FaqComponent } from './components/faq/faq.component';
 import { HomeComponent } from './components/home/home.component';
 
 export enum Paths {
-  about = 'about',
   contact = 'contact',
   catalog = 'catalog',
   faq = 'faq',
@@ -15,7 +13,6 @@ export enum Paths {
 }
 
 const routes: Routes = [
-  { path: Paths.about, component: AboutComponent },
   { path: Paths.contact, component: ContactComponent },
   { path: Paths.catalog, component: CatalogComponent },
   { path: Paths.faq, component: FaqComponent },

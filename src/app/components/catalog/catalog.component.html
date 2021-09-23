@@ -1,5 +1,9 @@
-<mat-form-field appearance="standard">
-    <input matInput (keyup)="applyFilter($event)" placeholder="Search catalog..." #input>
+<mat-form-field appearance="fill">
+    <mat-label>Search catalog...</mat-label>
+    <input matInput type="text" [(ngModel)]="filter" (keyup)="applyFilter()">
+    <button *ngIf="filter" matSuffix mat-icon-button aria-label="Clear" (click)="clear()">
+        <mat-icon>close</mat-icon>
+    </button>
 </mat-form-field>
 
 <div class="mat-elevation-z8">
@@ -22,11 +26,10 @@
         <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
         <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
 
-        <!-- Row shown when there is no matching data. -->
         <tr class="mat-row" *matNoDataRow>
-            <td class="mat-cell" colspan="3">No Catalog entries for "{{input.value}}"</td>
+            <td class="mat-cell" colspan="3">No Catalog entries for "{{filter}}"</td>
         </tr>
     </table>
 
-    <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]" aria-label="Select page of catalog"></mat-paginator>
+    <mat-paginator [pageSizeOptions]="[10, 25, 100]" aria-label="Select page of catalog"></mat-paginator>
 </div>

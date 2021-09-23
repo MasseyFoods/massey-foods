@@ -11,11 +11,12 @@ import { MatTableModule } from '@angular/material/table';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSortModule } from '@angular/material/sort';
 import { MatInputModule } from '@angular/material/input';
+import { MatIconModule } from '@angular/material/icon';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
-import { AboutComponent } from './components/about/about.component';
 import { CatalogComponent } from './components/catalog/catalog.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FaqComponent } from './components/faq/faq.component';
@@ -24,7 +25,6 @@ import { FaqComponent } from './components/faq/faq.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    AboutComponent,
     CatalogComponent,
     ContactComponent,
     FaqComponent
@@ -43,6 +43,8 @@ import { FaqComponent } from './components/faq/faq.component';
     MatFormFieldModule,
     MatSortModule,
     MatInputModule,
+    MatIconModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
