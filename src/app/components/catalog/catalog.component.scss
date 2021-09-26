@@ -1,19 +1,23 @@
+.container {
+    max-height: 60vh;
+    overflow: auto;
+}
+
+.mat-table {
+    width: 100%;
+}
+
 .mat-form-field {
     font-size: 14px;
     width: 100%;
     color: black;
 }
 
-.mat-table {
-    width: 100%;
-    overflow-x: auto;
-}
-
-.mat-elevation-z8 {
-    width: 80vw;
-}
-
 .mat-cell {
     width: 30%;
     text-align: left;
+}
+
+th, td {
+    width: 15vw;
 }

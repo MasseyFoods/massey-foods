@@ -28,14 +28,14 @@ export class CatalogComponent implements OnInit, AfterViewInit {
     private http: HttpClient
   ) { }
 
-  ngOnInit(): void {
+  public ngOnInit(): void {
     this.title.setTitle('Food Catalog');
     this.meta.updateTag({
       'description': 'Massey Foods - catalog'
     });
   }
 
-  ngAfterViewInit(): void {
+  public ngAfterViewInit(): void {
     this.catalog = new Catalog(this.http);
     this.catalog.getCatalog().subscribe(data => {
       this.dataSource = new MatTableDataSource<any>(data);
@@ -44,22 +44,27 @@ export class CatalogComponent implements OnInit, AfterViewInit {
     });
   }
 
-  applyFilter() {
+  public applyFilter() {
     this.dataSource.filter = this.filter.trim().toLowerCase();
     this.dataSource.paginator?.firstPage();
   }
 
-  clear() {
+  public clear() {
     this.filter = '';
     this.applyFilter();
+  }
+
+  public onPaginateChange() {
+    const matTable = document.getElementById('matTable');
+    matTable?.scrollIntoView();
   }
 }
 
 export class Catalog {
   constructor(private http: HttpClient) { }
 
-  getCatalog(): Observable<any[]> {
-    const jsonLocation: string = 'assets/products.json';
+  public getCatalog(): Observable<any[]> {
+    const jsonLocation: string = 'assets/data/products.json';
     return this.http.get<any[]>(jsonLocation);
   }
 }

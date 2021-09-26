@@ -1,9 +1,29 @@
-h1 {
-    
+.background {
+    background-size: 100% 100%;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+}
+
+.page {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 25px;
+}
+
+.content {
+    display: flex;
+    max-width: 70%;
+    max-height: 90%;
+    overflow-y: auto;
 }
 
 a#logo {
-    background-image: url(../assets/logo.png);
+    background-image: url("../assets/images/logo.png");
     border-radius: 50%;
     width: 90px;
     height: 90px;
@@ -19,15 +39,7 @@ a#logo {
     flex-direction: column;
 }
 
-.content {
-    margin: 25px;
-    flex: 1 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
 footer {
-    margin-left: 15px;
+    margin-left: 5px;
+    margin-bottom: 5px;
 }

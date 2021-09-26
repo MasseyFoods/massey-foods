@@ -14,12 +14,15 @@ import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { FormsModule } from '@angular/forms';
 
+import { LazyLoadImageModule } from 'ng-lazyload-image';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { CatalogComponent } from './components/catalog/catalog.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FaqComponent } from './components/faq/faq.component';
+
 
 @NgModule({
   declarations: [
@@ -44,7 +47,8 @@ import { FaqComponent } from './components/faq/faq.component';
     MatSortModule,
     MatInputModule,
     MatIconModule,
-    FormsModule
+    FormsModule,
+    LazyLoadImageModule
   ],
   providers: [],
   bootstrap: [AppComponent]

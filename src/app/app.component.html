@@ -7,14 +7,16 @@
       <button mat-button routerLink="{{Paths.contact}}">Contact Us</button>
       <button mat-button routerLink="{{Paths.faq}}">FAQ</button>
     </mat-toolbar>
-    <div class="content" role="main">
-      <div class="wrapper">
-        <router-outlet></router-outlet>
+    <div [defaultImage]="backgroundMin" [lazyLoad]="background" class="background">
+      <div class="page" role="main">
+        <div class="content">
+          <router-outlet></router-outlet>
+        </div>
       </div>
-    </div>
 
-    <footer>
-      <p>&copy; 2021 - Massey Foods</p>
-    </footer>
+      <footer>
+        &copy; 2021 - Massey Foods
+      </footer>
+    </div>
   </mat-sidenav-content>
 </mat-sidenav-container>

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
+
 import { map } from 'rxjs/operators';
 
 import { Paths } from './app-routing.module';
@@ -11,7 +12,10 @@ import { Paths } from './app-routing.module';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  public get Paths() {
+  public backgroundMin: string = "../assets/images/background-min.jpg";
+  public background: string = "../assets/images/background.jpg";
+
+  public get Paths(): typeof Paths {
     return Paths;
   }
 
