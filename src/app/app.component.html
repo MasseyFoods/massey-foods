@@ -1,7 +1,7 @@
 <mat-sidenav-container class="sidenav-container">
   <mat-sidenav-content>
     <mat-toolbar color="primary">
-      <a id="logo" routerLink="{{Paths.home}}"></a>
+      <a routerLink="{{Paths.home}}"><img [defaultImage]="logoMin" [lazyLoad]="logo" class="logo"></a>
 
       <button mat-button routerLink="{{Paths.catalog}}">Catalog</button>
       <button mat-button routerLink="{{Paths.contact}}">Contact Us</button>
