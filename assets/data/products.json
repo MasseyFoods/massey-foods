@@ -1,482 +1,292 @@
 [
     {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
+        "name": "Chicken Breast",
+        "desc": "15 LB",
+        "price": 98.00,
+        "category": "chicken"
     },
     {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
+        "name": "Chicken Cordon Bleu",
+        "desc": "24 / 7 oz",
+        "price": 89.00,
+        "category": "chicken"
     },
     {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
+        "name": "Chicken Fingers",
+        "desc": "2 / 5 LB",
+        "price": 89.00,
+        "category": "chicken"
     },
     {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
+        "name": "Chicken Wings - Buffalo (Pre-Cooked)",
+        "desc": "2 / 5 LB",
+        "price": 89.00,
+        "category": "chicken"
     },
     {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
+        "name": "Chicken Wings - Plain",
+        "desc": "6 / 5 LB",
+        "price": 169.00,
+        "category": "chicken"
     },
     {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
+        "name": "Chicken Wings - Plain",
+        "desc": "1 / 5 LB",
+        "price": 35.00,
+        "category": "chicken"
     },
     {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
+        "name": "Chicken Wings - BBQ",
+        "desc": "10 LB",
+        "price": 95.00,
+        "category": "chicken"
     },
     {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
+        "name": "Breaded Chicken Patties",
+        "desc": "40 / 4 oz",
+        "price": 79.00,
+        "category": "chicken"
     },
     {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
+        "name": "T-Bone",
+        "desc": "16 / 12 oz",
+        "price": 155.00,
+        "category": "beef"
     },
     {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
+        "name": "T-Bone Steaks",
+        "desc": "14 / 12 oz",
+        "price": 145.00,
+        "category": "beef"
     },
     {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
+        "name": "Beef Ribeye",
+        "desc": "20 / 8 oz",
+        "price": 179.00,
+        "category": "beef"
     },
     {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
+        "name": "NY Strips",
+        "desc": "20 / 8 oz",
+        "price": 139.99,
+        "category": "beef"
     },
     {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
+        "name": "Butt Steak Top Sirloin",
+        "desc": "16 / 8 oz",
+        "price": 139.99,
+        "category": "beef"
     },
     {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
+        "name": "Butt Steak Top Sirloin",
+        "desc": "16 / 10 oz",
+        "price": 149.99,
+        "category": "beef"
     },
     {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
+        "name": "Beef Philly Ribeye",
+        "desc": "9 LB",
+        "price": 99.99,
+        "category": "beef"
     },
     {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
+        "name": "Beef Philly Sirloin",
+        "desc": "32 / 5 oz",
+        "price": 79.99,
+        "category": "beef"
     },
     {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
+        "name": "Beef Ground 80/20",
+        "desc": "10 LB",
+        "price": 79.99,
+        "category": "beef"
     },
     {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
+        "name": "Beef Patty 80/20",
+        "desc": "20 / 8 oz",
+        "price": 74.00,
+        "category": "beef"
     },
     {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
+        "name": "Beef Patty 80/20",
+        "desc": "24 / 6 oz",
+        "price": 69.00,
+        "category": "beef"
     },
     {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
+        "name": "Bacon, Sliced",
+        "desc": "15 LB",
+        "price": 114.00,
+        "category": "pork"
     },
     {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
+        "name": "Pork Chop Bone In",
+        "desc": "20 / 8 oz",
+        "price": 74.00,
+        "category": "pork"
     },
     {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
+        "name": "Pork Chop Bone In",
+        "desc": "26 / 6 oz",
+        "price": 79.00,
+        "category": "pork"
     },
     {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
+        "name": "Pork Chop Bone In",
+        "desc": "32 / 5 oz",
+        "price": 79.00,
+        "category": "pork"
     },
     {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
+        "name": "Ham Boneless Smoked",
+        "desc": "2 / 13-16 LB",
+        "price": 139.00,
+        "category": "pork"
     },
     {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
+        "name": "Ham Boneless Smoked",
+        "desc": "2 / 5 LB",
+        "price": 85.00,
+        "category": "pork"
     },
     {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
+        "name": "Pork Chop Boneless",
+        "desc": "32 / 5 oz",
+        "price": 89.00,
+        "category": "pork"
     },
     {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
+        "name": "Pork Spare Ribs",
+        "desc": "3 slabs",
+        "price": 69.00,
+        "category": "pork"
     },
     {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
+        "name": "Italian Rope Sausage",
+        "desc": "10 LB",
+        "price": 79.00,
+        "category": "pork"
     },
     {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
+        "name": "Italian Link Sausage",
+        "desc": "",
+        "price": 79.00,
+        "category": "pork"
     },
     {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
+        "name": "Italian Spare Rib Case",
+        "desc": "9 slabs",
+        "price": 200.00,
+        "category": "pork"
     },
     {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
+        "name": "Flounder Filets",
+        "desc": "10 LB",
+        "price": 89.00,
+        "category": "seafood"
     },
     {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
+        "name": "Tilapia Fillets",
+        "desc": "10 LB",
+        "price": 79.00,
+        "category": "seafood"
     },
     {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
+        "name": "Salmon",
+        "desc": "10 LB",
+        "price": 125.00,
+        "category": "seafood"
     },
     {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
+        "name": "Swai Filets",
+        "desc": "50 LB",
+        "price": 89.00,
+        "category": "seafood"
     },
     {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
+        "name": "Catfish Filets",
+        "desc": "15 LB",
+        "price": 145.00,
+        "category": "seafood"
     },
     {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
+        "name": "Snow Crab Cluster",
+        "desc": "30 LB",
+        "price": 567.00,
+        "category": "seafood"
     },
     {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
+        "name": "Snow Crab Cluster",
+        "desc": "10 LB",
+        "price": 239.00,
+        "category": "seafood"
     },
     {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
-    },
-    {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
-    },
-    {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
-    },
-    {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
-    },
-    {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
-    },
-    {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
-    },
-    {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
-    },
-    {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
-    },
-    {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
-    },
-    {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
-    },
-    {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
+        "name": "Scallops",
+        "desc": "2 / 5 LB",
+        "price": 119.00,
+        "category": "seafood"
     },
     {
         "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
-    },
-    {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
-    },
-    {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
+        "desc": "10 / 2 LB",
+        "price": 200.00,
+        "category": "seafood"
     },
     {
         "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
+        "desc": "5 / 2 LB",
+        "price": 110.00,
+        "category": "seafood"
     },
     {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
+        "name": "Ice Cream Sandwich",
+        "desc": "24 / 6 oz",
+        "price": 39.00
     },
     {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
+        "name": "Brownie Chocolate",
+        "desc": "24 / 3 oz",
+        "price": 48.00
     },
     {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
+        "name": "Pancake Buttermilk",
+        "desc": "144 / 1.2 oz",
+        "price": 69.00
     },
     {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
+        "name": "Sweet Potatoe Fry",
+        "desc": "5 / 3 LB",
+        "price": 69.00
     },
     {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
+        "name": "French Fry Beer Battered",
+        "desc": "6 / 5 LB",
+        "price": 89.00
     },
     {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
+        "name": "Vegetable Blend",
+        "desc": "12 / 2 LB",
+        "price": 69.00
     },
     {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
+        "name": "Pizza Pepperoni 5\"",
+        "desc": "24 / 5.57 oz",
+        "price": 69.00
     },
     {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
+        "name": "Sausage Egg and Cheese Biscuit",
+        "desc": "12 / 4.9 oz",
+        "price": 39.00
     },
     {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
+        "name": "Sausage Egg and Cheese Croissant",
+        "desc": "12 / 4.9 oz",
+        "price": 39.00
     },
     {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
-    },
-    {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
-    },
-    {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
-    },
-    {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
-    },
-    {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
-    },
-    {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
-    },
-    {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
-    },
-    {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
-    },
-    {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
-    },
-    {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
-    },
-    {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
-    },
-    {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
-    },
-    {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
-    },
-    {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
-    },
-    {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
-    },
-    {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
-    },
-    {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
-    },
-    {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
-    },
-    {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
-    },
-    {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
-    },
-    {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
-    },
-    {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
-    },
-    {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
-    },
-    {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
-    },
-    {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
-    },
-    {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
-    },
-    {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
-    },
-    {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
-    },
-    {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
-    },
-    {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
-    },
-    {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
-    },
-    {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
-    },
-    {
-        "name": "Shrimp",
-        "desc": "Quality shrimp.",
-        "price": 19.99
-    },
-    {
-        "name": "Burgers",
-        "desc": "Quality burgers.",
-        "price": 39.99
-    },
-    {
-        "name": "Chicken Patties",
-        "desc": "Quality chicken patties.",
-        "price": 29.99
+        "name": "Hush Puppy",
+        "desc": "2 / 5 LB",
+        "price": 39.00
     }
 ]
