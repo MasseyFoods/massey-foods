@@ -3,9 +3,9 @@
     <mat-toolbar color="primary">
       <a routerLink="{{Paths.home}}"><img [defaultImage]="logoMin" [lazyLoad]="logo" class="logo"></a>
 
-      <button mat-button routerLink="{{Paths.catalog}}">Catalog</button>
-      <button mat-button routerLink="{{Paths.contact}}">Contact Us</button>
-      <button mat-button routerLink="{{Paths.faq}}">FAQ</button>
+      <button mat-button routerLink="{{Paths.catalog}}" routerLinkActive="activeLink">Catalog</button>
+      <button mat-button routerLink="{{Paths.contact}}" routerLinkActive="activeLink">Contact Us</button>
+      <button mat-button routerLink="{{Paths.faq}}" routerLinkActive="activeLink">FAQ</button>
     </mat-toolbar>
     <div [defaultImage]="backgroundMin" [lazyLoad]="background" class="background">
       <div class="page" role="main">

@@ -20,12 +20,14 @@
     max-width: 60%;
     max-height: 90%;
     overflow-y: auto;
+    // background-color: RGBA(96, 125, 139, 0.5);
+    background-color: RGBA(245, 222, 179, .5);
 }
 
 .logo {
     border-radius: 50%;
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     object-fit: contain;
 }
 
@@ -41,4 +43,17 @@
 footer {
     margin-left: 5px;
     margin-bottom: 5px;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.mat-drawer-container {
+    color: black;
+}
+
+.activeLink {
+    color: wheat;
 }

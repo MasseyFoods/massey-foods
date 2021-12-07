@@ -12,10 +12,10 @@ import { Paths } from './app-routing.module';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  public backgroundMin: string = "./assets/images/background-min.jpg";
-  public background: string = "./assets/images/background.jpg";
-  public logoMin: string = "./assets/images/logo-min.png";
+  public background: string = "./assets/images/background.jpeg";
+  public backgroundMin: string = "./assets/images/background-min.jpeg";
   public logo: string = "./assets/images/logo.png";
+  public logoMin: string = "./assets/images/logo-min.png";
 
   public get Paths(): typeof Paths {
     return Paths;
