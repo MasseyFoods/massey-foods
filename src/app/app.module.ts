@@ -13,6 +13,7 @@ import { MatSortModule } from '@angular/material/sort';
 import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { FormsModule } from '@angular/forms';
+import { MatCardModule } from '@angular/material/card'
 
 import { LazyLoadImageModule } from 'ng-lazyload-image';
 
@@ -47,6 +48,7 @@ import { FaqComponent } from './components/faq/faq.component';
     MatSortModule,
     MatInputModule,
     MatIconModule,
+    MatCardModule,
     FormsModule,
     LazyLoadImageModule
   ],

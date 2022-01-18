@@ -1,19 +1,14 @@
-.container {
-    max-height: 60vh;
-    overflow: auto;
-}
-
 .mat-table {
     width: 100%;
-    background-color: RGBA(245, 222, 179, 0.0);
+    background-color: RGBA(255, 255, 255, 0);
 }
 
 .mat-paginator {
-    background-color: RGBA(245, 222, 179, 0);
+    background-color: RGBA(255, 255, 255, 0);
 }
 
 .mat-form-field {
-    background-color: RGBA(245, 222, 179, 0);
+    background-color: RGBA(255, 255, 255, 0);
 }
 
 .mat-form-field {
@@ -28,5 +23,13 @@
 }
 
 th, td {
-    width: 15vw;
+    width: 20vw;
+}
+
+.table-bg {
+    background-color: RGBA(255, 255, 255, 0);
+}
+
+.mat-card {
+    background-color: RGBA(255, 255, 255, 0);
 }

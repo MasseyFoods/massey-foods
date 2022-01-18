@@ -9,11 +9,13 @@
     </mat-toolbar>
     <div [defaultImage]="backgroundMin" [lazyLoad]="background" class="background">
       <div class="page" role="main">
-        <div class="content">
+        <!-- <div class="content">
           <router-outlet></router-outlet>
-        </div>
+        </div> -->
+        <mat-card class="content">
+          <router-outlet></router-outlet>
+        </mat-card>
       </div>
-
       <footer>
         &copy; 2021 - Massey Foods
       </footer>

@@ -8,7 +8,7 @@
     </mat-form-field>
 
     <div class="mat-elevation-z8">
-        <div class="container">
+        <mat-card>
             <table mat-table [dataSource]="dataSource" matSort id="matTable">
                 <ng-container matColumnDef="name">
                     <th mat-header-cell *matHeaderCellDef mat-sort-header>Name</th>
@@ -32,7 +32,7 @@
                     <td class="mat-cell" colspan="3">No Catalog entries for "{{filter}}"</td>
                 </tr>
             </table>
-        </div>
+        </mat-card>
 
         <mat-paginator [pageSizeOptions]="[10, 25, 100]" aria-label="Select page of catalog"
             (page)="onPaginateChange()"></mat-paginator>

@@ -17,10 +17,9 @@
 
 .content {
     display: flex;
-    max-width: 60%;
-    max-height: 90%;
-    overflow-y: auto;
-    background-color: RGBA(245, 222, 179, .75);
+    background-color: RGBA(255, 255, 255, .75);
+    margin: auto;
+    max-width: 75vw;
 }
 
 .logo {
