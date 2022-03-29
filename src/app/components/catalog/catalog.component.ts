@@ -7,12 +7,18 @@ import { Title, Meta } from '@angular/platform-browser';
 
 import { Observable } from 'rxjs';
 
+import { Paths } from 'src/app/app-routing.module';
+
 @Component({
   selector: 'app-catalog',
   templateUrl: './catalog.component.html',
   styleUrls: ['./catalog.component.scss']
 })
 export class CatalogComponent implements OnInit, AfterViewInit {
+  public get Paths() {
+    return Paths;
+  }
+
   public displayedColumns: string[] = ['name', 'desc', 'price'];
   public catalog: Catalog | undefined;
   public dataSource: MatTableDataSource<any> = new MatTableDataSource<any>();

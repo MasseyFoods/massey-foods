@@ -37,8 +37,11 @@
         <mat-paginator [pageSizeOptions]="[10, 25, 100]" aria-label="Select page of catalog"
             (page)="onPaginateChange()"></mat-paginator>
     </div>
+    <br />
     <div>
-        <br>
+      <h2>Ready to order? Please <a routerLink="../{{Paths.contact}}">contact us</a></h2>
+    </div>
+    <div>
         *Prices subject to change*
     </div>
 </div>
