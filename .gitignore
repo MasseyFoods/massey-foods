@@ -46,3 +46,5 @@ Thumbs.db
 /.vs/slnx.sqlite
 .vs/VSWorkspaceState.json
 .vs/massey-foods/v17/.suo
+/debug.log
+/.vs/massey-foods/config/applicationhost.config
