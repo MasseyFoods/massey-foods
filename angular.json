@@ -71,7 +71,8 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "massey-foods:build:production"
+              "browserTarget": "massey-foods:build:production",
+              "ssl": true
             },
             "development": {
               "browserTarget": "massey-foods:build:development"
